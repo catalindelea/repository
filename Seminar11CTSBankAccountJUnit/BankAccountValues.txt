@@ -1,0 +1,22 @@
+#
+#	Cazuri de test pentru un BankAccount
+#
+#	Valori initiale BankAccount
+initial	100.0	5000.0	10.0
+          
+
+#
+#	Valori reale normale
+#	expected	deposit
+#
+200	300
+150	250
+1024	1124
+#
+#	Valori aflate la limita
+#
+0.1	100.1
+0.01	100.01
+4899	4999
+4899.99	4999.99
+
